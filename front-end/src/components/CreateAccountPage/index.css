@@ -1,12 +1,11 @@
-.account-page-container{
+.create-account-page-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
-
-.account-page {
+.create-account-page {
   width: 378px;
   height: 100vh;
   background-color: #F7F8F9;

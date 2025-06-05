@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import './index.css'
 
 
@@ -7,12 +8,16 @@ const WelcomePage = () => {
       <div className='welcome-page'>
         <h1 className='welcome-title'>Welcome to PopX</h1>
         <p className='welcome-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-        <button type='button' className='create-account-button'>
-          Create Account
-        </button>
-        <button type='button' className='login-button'>
-          Already Registered? Login
-        </button>
+        <Link to="/create-account">
+          <button type='button' className='create-account-button'>
+            Create Account
+          </button>
+        </Link>
+        <Link to="/sign-in">
+          <button type='button' className='login-button'>
+            Already Registered? Login
+          </button>
+        </Link>
       </div>
     </div>
   );
