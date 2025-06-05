@@ -46,7 +46,7 @@
   margin-bottom: 29px;
 }
 
-.create-account-button {
+.welcome-create-account-button {
   background-color: #6C25FF;
   border-radius: 6px 6px 6px 6px;
   width: 335px;
@@ -59,7 +59,7 @@
   text-align: center;
 }
 
-.login-button {
+.welcome-login-button {
   background-color: #6C25FF4B;
   border-radius: 6px 6px 6px 6px;
   width: 335px;
