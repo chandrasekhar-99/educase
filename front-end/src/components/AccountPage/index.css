@@ -12,7 +12,13 @@
   background-color: #F7F8F9;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.account-sub-page{
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
@@ -24,15 +30,58 @@
 
 .account-title-container{
   background-color: #ffffff; 
-  height: 68px;
   width: 100%;
-  padding-top: 27px;
-  padding-left: 15px;
-  padding-bottom: 19px;
+  height: 68px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .account-title {
   font-size: 18px;
-  height: 22px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.profile-details{
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
+}
+
+.profile-name{
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.profile-email{
+  font-size: 13px;
+}
+
+.account-description {
+  width:337px;
+  height: 63px;
+}
+
+.profile-image-container{
+  position: relative;
+  display: inline-block;
+}
+
+.camera-image{
+  width: 20px;
+  height: 18px;
+  position: absolute;
+  right:5px;
+  bottom: 5px;
+}
+
+.account-hr{
+  border: none;
+  border-top: 2px dotted gray;
+  margin: 20px 0;
 }
