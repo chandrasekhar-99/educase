@@ -5,6 +5,8 @@ const CreateAccountPage = () => {
   return (
     <div className="create-account-page-container">
       <div className="create-account-page">
+        <div className='create-account-sub-page'>
+          <div>
         <h1 className="create-account-title">Create your PopX account</h1>
           <form>
             <div className="create-account-wrapper">
@@ -13,7 +15,7 @@ const CreateAccountPage = () => {
                 type="text"
                 id="name"
                 placeholder="Enter Full Name"
-                className="input-field"
+                className="create-account-input-field"
               />
             </div>
             <div className="create-account-wrapper">
@@ -22,7 +24,7 @@ const CreateAccountPage = () => {
                 type="tel"
                 id="mobile"
                 placeholder="Enter Phone Number"
-                className="input-field"
+                className="create-account-input-field"
               />
             </div>
             <div className="create-account-wrapper">
@@ -31,7 +33,7 @@ const CreateAccountPage = () => {
                 type="email"
                 id="email"
                 placeholder="Enter Email address"
-                className="input-field"
+                className="create-account-input-field"
               />
             </div>
             <div className="create-account-wrapper">
@@ -40,7 +42,7 @@ const CreateAccountPage = () => {
                 type="password"
                 id="password"
                 placeholder="Enter Password"
-              className="input-field"
+              className="create-account-input-field"
             />
             </div>
             <div className="create-account-wrapper">
@@ -49,7 +51,7 @@ const CreateAccountPage = () => {
                 type="text"
                 id="company-name"
                 placeholder="Enter Company name"
-                className="input-field"
+                className="create-account-input-field"
               />
             </div>
             <p className='radio-label'>Are you an agency?<span className='create-account-label-span'>*</span></p>
@@ -67,10 +69,14 @@ const CreateAccountPage = () => {
                 value="no"
               />No</label>
             </div>
+          </form>
+          </div>
+          <div>
             <Link to="/account">
               <button type="submit" className="create-account-button">Create Account</button>
             </Link>
-          </form>
+          </div>
+          </div>
       </div>
     </div>
   );

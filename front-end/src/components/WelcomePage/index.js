@@ -6,6 +6,7 @@ const WelcomePage = () => {
   return (
     <div className='welcome-page-container'>
       <div className='welcome-page'>
+        <div className='welcome-sub-page'>
         <h1 className='welcome-title'>Welcome to PopX</h1>
         <p className='welcome-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <Link to="/create-account">
@@ -18,6 +19,7 @@ const WelcomePage = () => {
             Already Registered? Login
           </button>
         </Link>
+        </div>
       </div>
     </div>
   );

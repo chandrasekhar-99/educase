@@ -5,6 +5,7 @@ const SignPage = () => {
   return (
     <div className="sign-page-container">
       <div className="sign-page">
+        <div className='sign-sub-page'>
         <h1 className="sign-page-title">Sign In to your PopX account</h1>
         <p className='welcome-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         <form>
@@ -14,7 +15,7 @@ const SignPage = () => {
                 type="email"
                 id="email"
                 placeholder="Enter Email address"
-                className="input-field"
+                className="sign-in-input-field"
               />
             </div>
             <div className="sign-in-wrapper">
@@ -23,7 +24,7 @@ const SignPage = () => {
                 type="password"
                 id="password"
                 placeholder="Enter Password"
-              className="input-field"
+                className="sign-in-input-field"
             />
             </div>
         </form>
@@ -31,6 +32,7 @@ const SignPage = () => {
         <Link to="/account">
           <button type="button" className="sign-in-button">Login</button>
         </Link>
+        </div>
       </div>
     </div>
   )
